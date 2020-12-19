@@ -34,44 +34,72 @@
       }
     </style>
   </head>
-  <body>
+  <body class="p-6">
     <!-- card -->
-    <main>
+    <main
+      class="bg-white w-full rounded-md shadow-lg flex flex-col justify-evenly"
+    >
       <!-- top -->
-      <div>
-        <h2>Join our community</h2>
-        <h3>30-day, hassle-free money back guarantee</h3>
-        <p>
+      <div class="w-full p-4">
+        <h2 class="text-lg font-bold mb-3" style="color: hsl(179, 62%, 43%)">
+          Join our community
+        </h2>
+        <h3 class="font-bold mb-3" style="color: hsl(71, 73%, 54%)">
+          30-day, hassle-free money back guarantee
+        </h3>
+        <p class="text-sm mb-3" style="color: hsl(218, 22%, 67%)">
           Gain access to our full library of tutorials along with expert code
           reviews. Perfect for any developers who are serious about honing their
           skills.
         </p>
       </div>
-      <!-- middle -->
-      <div>
-        <h2>Monthly Subscription</h2>
-        <p>&dollar;29 <span>per month</span></p>
-        <p>Full access for less than &dollar;1 a day</p>
-        <button>Sign Up</button>
-      </div>
-      <!-- bottom -->
-      <div>
-        <h3>Why Us</h3>
-        <ul>
-          <li>Tutorials by industry experts</li>
-          <li>Peer &amp; expert code review</li>
-          <li>Coding exercises</li>
-          <li>Access to our GitHub repos</li>
-          <li>Community forum</li>
-          <li>Flashcard decks</li>
-          <li>New videos every week</li>
-        </ul>
+      <!-- bottom 2/3rds -->
+      <div class="w-full">
+        <!-- middle -->
+        <div
+          class="w-full p-4"
+          style="background-color: hsl(179, 62%, 43%); color: white"
+        >
+          <h2 class="text-lg font-bold mb-3">Monthly Subscription</h2>
+          <p class="text-2xl font-bold mr-2 mb-2">
+            &dollar;29
+            <span class="text-sm font-normal" style="color: hsl(204, 43%, 93%)"
+              >per month</span
+            >
+          </p>
+          <p class="text-sm mb-5">Full access for less than &dollar;1 a day</p>
+          <button
+            class="block w-11/12 mx-auto rounded-md px-4 py-3 text-sm font-bold shadow-md"
+            style="background-color: hsl(71, 73%, 54%); color: white"
+          >
+            Sign Up
+          </button>
+        </div>
+        <!-- bottom -->
+        <div
+          class="w-full p-4 pb-6 rounded-b-md"
+          style="background-color: hsl(179, 62%, 46%); color: white"
+        >
+          <h3 class="font-bold mb-4">Why Us</h3>
+          <ul class="text-sm" style="color: hsl(204, 43%, 90%)">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
       </div>
     </main>
-    <footer>
+    <footer class="w-full mt-2 text-center text-xs">
       <p>
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="underline"
           >Frontend Mentor</a
         >. Coded by Skye Brown.
       </p>
